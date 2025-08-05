@@ -5,13 +5,19 @@ p {
 }
 
 body {
+  padding-top: 80px;
+  padding-bottom: 1000px;
+  padding-left: 80px;
   margin: 0;
-  padding: 0;
   font-family: "Roboto", Arial, sans-serif;
 }
 
 .thumbnail {
   width: 100%;
+}
+
+.thumbnail-row {
+  position: relative;
 }
 
 .video-title {
@@ -62,4 +68,17 @@ body {
 
 .thumbnail-row {
   margin-bottom: 12px;
+}
+
+.video-time {
+  font-family: Roboto, Arial;
+  font-size: 12px;
+  border-radius: 2px;
+  font-weight: 500;
+  padding: 4px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: 8px;
+  right: 5px;
 }
